@@ -27,6 +27,7 @@ header {
 .banner h1 {
     color: white;
     font-size: 150px;
+    height: 50hv;
 }
 
 /* Marquee */
@@ -130,9 +131,9 @@ footer a {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 890px) {
     .banner h1 {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .marquee-text {
