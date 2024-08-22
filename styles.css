@@ -1,0 +1,141 @@
+/* General styles */
+body {
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #f8f9fa;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>');
+}
+
+/* Banner */
+.banner h1 {
+    color: white;
+    font-size: 150px;
+}
+
+/* Marquee */
+marquee {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+}
+
+footer a {
+    color: #030027;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Marquee Text */
+.marquee-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+    font-weight: 500;
+    /* Ajusta el peso de la fuente si es necesario */
+    color: #C16E70;
+    /* Color del texto */
+    white-space: nowrap;
+    /* Evita que el texto se rompa en varias líneas */
+}
+
+/* Si quieres asegurar que el marqee tenga un alto específico */
+.marquee-text {
+    height: 50px;
+    /* Ajusta la altura según sea necesario */
+    line-height: 50px;
+    /* Asegura que el texto esté centrado verticalmente */
+}
+
+/* Card Styles */
+.card {
+    border: 2px solid #151E3F;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.card-border {
+    border: 1px dashed #151E3F;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    pointer-events: none;
+    /* Allows interaction with content inside the card */
+}
+
+/* FAQ Styles */
+.faq h2 {
+    font-family: 'Lora', serif;
+    color: #DC9E82;
+    font-size: 36px;
+}
+
+.accordion-button {
+    font-family: 'Poppins', sans-serif;
+    color: #030027;
+    background-color: #f8f9fa;
+    border: 1px solid #151E3F;
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #C16E70;
+    background-color: #e9ecef;
+}
+
+.accordion-body {
+    font-family: 'Poppins', sans-serif;
+    color: #030027;
+}
+
+
+/* Buttons */
+.btn-primary {
+    background-color: #151E3F;
+    border-color: #151E3F;
+}
+
+.btn-primary:hover {
+    background-color: #1a263f;
+    border-color: #1a263f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 100px;
+    }
+
+    .marquee-text {
+        font-size: 18px;
+    }
+}

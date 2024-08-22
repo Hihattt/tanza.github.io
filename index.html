@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Constanza's Design Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
+        <div class="d-flex align-items-center">
+            <span class="me-3 ">Santiago, CL</span>
+            <span class="text-center fs-4 lora">Constanza's Design Vault</span>
+        </div>
+        <nav class="d-none d-lg-block">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="about.html">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="jobs.html">Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="contact.html">Contáctame</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn btn-outline-dark d-lg-none" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasMenuLabel" class="lora">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-unstyled">
+                    <li><a href="about.html" class="text-dark">About me</a></li>
+                    <li><a href="works.html" class="text-dark">Works</a></li>
+                    <li><a href="contact.html" class="text-dark">Contáctame</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner justify-content-center text-center py-5 "
+        style="background-color: #151E3F; color: white; height: 500px;">
+        <h1 class="display-1 poppins">CONSTANZA OLIVARES LEON</h1>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- First Section -->
+        <section class="row mb-5">
+            <div class="col-md-6">
+                <img src="project-image.jpg" alt="Project Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-secondary">BeSafe Maipú</h2>
+                <p class="text-dark">Esta aplicación móvil está diseñada para la comunidad de Maipú y funciona de manera
+                    similar a SOSAFE, pero con un enfoque específico en la colaboración directa con la municipalidad y
+                    Carabineros. Los usuarios pueden reportar incidentes de seguridad, problemas comunitarios, y
+                    situaciones de emergencia a través de la app. Los reportes se envían directamente a la
+                    municipalidad, que los redirige a las autoridades pertinentes, incluyendo a Carabineros para una
+                    respuesta rápida y eficiente. La app busca mejorar la seguridad y la gestión comunitaria en Maipú,
+                    facilitando la comunicación entre los ciudadanos, la municipalidad y las fuerzas de seguridad. <a
+                        href="project-link.html">View more</a></p>
+            </div>
+        </section>
+
+        <!-- Second Section -->
+        <section class="row mb-5">
+            <div class="col-md-6 order-md-2">
+                <img src="project-image2.jpg" alt="Project Image" class="img-fluid">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h2 class="text-secondary">Another Project Title</h2>
+                <p class="text-dark">Description of another project. <a href="project-link2.html">View more</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Marquee -->
+    <section class="bg-light py-3 text-center">
+        <marquee behavior="scroll" direction="left" class="marquee-text">
+            <span>Cada diseño cuenta una historia. Contáctame ahora, y construyamos la tuya juntos. </span>
+        </marquee>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 border-top">
+        <p class="lora mb-1">Constanza's Design Vault &copy; 2024</p>
+        <div>
+            <a href="https://www.linkedin.com/in/your-profile" class="text-dark me-3">LinkedIn</a>
+            <a href="https://wa.me/your-number" class="text-dark me-3">WhatsApp</a>
+            <a href="https://github.com/your-profile" class="text-dark">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
