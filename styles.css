@@ -445,6 +445,7 @@ footer a {
 
     h1.display-1 {
         color: var(--secundary);
+        margin-top: 150px;
     }
 
     .img-blocks {
