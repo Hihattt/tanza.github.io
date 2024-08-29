@@ -118,6 +118,15 @@ a.text-menu {
     text-decoration: none;
     color: var(--secundary);
     transition: ease-in-out 0.4s;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    z-index: 20000;
 }
 
 .chartrr {
@@ -144,8 +153,13 @@ a.text-menu {
 .img-container {
     position: relative;
     width: 1200px;
-    height: 500px;
+    height: 60vh;
     overflow: hidden;
+    display: flex;
+}
+
+.img-container h1 {
+    margin-top: 50px;
 }
 
 .img-container .img-overlay {
@@ -197,6 +211,9 @@ a.text-menu {
 }
 
 /* ------------Title works */
+
+
+/* -------------------------------  */
 .title-work {
     justify-content: center;
     display: flex;
@@ -454,6 +471,26 @@ footer a {
         display: none;
     }
 
+    .container {
+        width: 50vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-overlay {
+        display: none;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 50vh;
+    }
+
     /* works */
     .title-work {
         justify-content: center;
@@ -473,6 +510,8 @@ footer a {
         display: flex;
         justify-content: center;
     }
+
+
 
     .img-project {
         align-items: center;
