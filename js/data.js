@@ -21,7 +21,7 @@ const data = [
         itemLink: "https://",
         itemCopy:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus corporis laboriosam reprehenderit expedita magnam fugiat quas optio dicta totam. Culpa sed tempore fugit magni fugiat commodi ut aliquam obcaecati quos?",
-        itemImg: "./img-3.jpg",
+        itemImg: "./images/gatete.jpg",
     },
     {
         itemName: "Project 4",
@@ -29,7 +29,7 @@ const data = [
         itemLink: "https://",
         itemCopy:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus corporis laboriosam reprehenderit expedita magnam fugiat quas optio dicta totam. Culpa sed tempore fugit magni fugiat commodi ut aliquam obcaecati quos?",
-        itemImg: "./img-4.jpg",
+        itemImg: "./images/gatete.jpg",
     },
     {
         itemName: "Project 5",
@@ -37,7 +37,7 @@ const data = [
         itemLink: "https://",
         itemCopy:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus corporis laboriosam reprehenderit expedita magnam fugiat quas optio dicta totam. Culpa sed tempore fugit magni fugiat commodi ut aliquam obcaecati quos?",
-        itemImg: "./img-5.jpg",
+        itemImg: "./images/gatete.jpg",
     },
     {
         itemName: "Project 6",
@@ -45,7 +45,7 @@ const data = [
         itemLink: "https://",
         itemCopy:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus corporis laboriosam reprehenderit expedita magnam fugiat quas optio dicta totam. Culpa sed tempore fugit magni fugiat commodi ut aliquam obcaecati quos?",
-        itemImg: "./img-1.jpg",
+        itemImg: "./images/gatete.jpg",
     },
     {
         itemName: "Project 7",
@@ -53,7 +53,7 @@ const data = [
         itemLink: "https://",
         itemCopy:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus corporis laboriosam reprehenderit expedita magnam fugiat quas optio dicta totam. Culpa sed tempore fugit magni fugiat commodi ut aliquam obcaecati quos?",
-        itemImg: "./img-2.jpg",
+        itemImg: "./images/gatete.jpg",
     },
     {
         itemName: "Project 8",
@@ -61,7 +61,7 @@ const data = [
         itemLink: "https://",
         itemCopy:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus corporis laboriosam reprehenderit expedita magnam fugiat quas optio dicta totam. Culpa sed tempore fugit magni fugiat commodi ut aliquam obcaecati quos?",
-        itemImg: "./img-3.jpg",
+        itemImg: "./images/gatete.jpg",
     },
 
 ];
