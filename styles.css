@@ -19,6 +19,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     background-color: var(--main-color);
+    letter-spacing: 3px;
+    cursor: none;
 }
 
 h1,
@@ -49,20 +51,27 @@ p {
     color: var(--secundary);
 }
 
+.text-add {
+    font-size: 30px;
+    padding: 20px;
+}
+
 
 
 /* Cursorr */
 .cursor-dot {
     width: 13px;
     height: 13px;
-    background-color: #7d7d7d;
+    background-color: var(--other);
+    z-index: 80000000;
 }
 
 .cursor-outline {
     width: 40px;
     height: 40px;
     background-color: #00000063;
-    border: 2px solid hsla(0, 0%, 100%, 0.5);
+    border: 2px solid hsla(0, 56%, 63%, 0.5);
+    z-index: 80000000;
 }
 
 .cursor-dot,
@@ -74,6 +83,7 @@ p {
     border-radius: 50%;
     z-index: 1;
     pointer-events: none;
+    z-index: 80000000;
 }
 
 /* Header */
@@ -203,11 +213,12 @@ header {
     font-family: "Arsenal SC", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 150px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
     height: 50hv;
     /* background-color: #151E3F; */
 
-    color: var(--secundary);
+    color: var(--other);
 }
 
 /* ------------Title works */
@@ -240,28 +251,36 @@ header {
     color: var(--secundary);
 }
 
+.section-2-work {
+    margin-right: 50px;
+}
+
 .text-p {
     font-size: 20px;
     color: #000;
-    margin: 100px 0;
+    margin-top: 100px;
 }
 
 .button-p a {
     text-decoration: none;
-    color: var(--secundary);
-
+    color: var(--other);
+    background-color: var(--main-color);
+    padding: 10px;
+    border: 1px solid var(--other);
 }
 
 .button-p {
     padding: 50px 0;
+
 }
 
 .button-p a:hover {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    transition: .4s;
-    padding: 10px;
+    background-color: var(--other);
+    transition: .4s ease-in-out;
+
 }
 
 /* Jobs page */
@@ -270,6 +289,7 @@ header {
 
 .work-body {
     background-color: var(--other);
+
 }
 
 .img {
@@ -301,16 +321,16 @@ header {
 
 .item {
     display: flex;
-    padding: 0.25em 0.5em;
+    padding: .5rem;
     cursor: pointer;
-    color: var(--secundary);
+    color: var(--main-color);
+
 
 }
 
 .item:hover {
-    border: var(--main-color) 1px solid;
-    color: var(--main-color);
-    padding: .5rem;
+    border: var(--secundary) 1px solid;
+    color: var(--secundary);
     transition: .4s;
 }
 
@@ -480,14 +500,101 @@ header {
 
 }
 
+/* Contact.--------------------- */
+.get-in-touch {
+    font-size: 120px;
+    color: var(--main-color);
+
+    padding: 10px;
+    word-spacing: 12px;
+
+}
+
+.contact-part {
+    margin-right: auto;
+}
+
+/* Contactt +++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.contact-section {
+    position: relative;
+    height: 100vh;
+
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+
+    box-sizing: border-box;
+}
+
+.text-container-2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.vertical-text {
+
+    transform: rotate(270deg);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.vertical-text:hover {
+
+    transform: rotate(270deg);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--other);
+    transition: ease-in-out .5s;
+
+}
+
+.text-2-contact {
+
+    font-size: 4rem;
+
+    color: #000;
+
+}
+
+
 
 
 
 /* Marquee */
 marquee {
     font-size: 20px;
-    background-color: var(--bg);
+    background-color: var(--other);
+    color: #000;
 
+}
+
+.marquee-text-1 {
+    font-size: 20px;
+    background-color: var(--other);
+    color: #000;
+    width: 200px;
 }
 
 /* Footer */
@@ -756,5 +863,51 @@ footer a {
         padding: 5px 5px;
         text-align: center;
     }
+
+    .section-2-work {
+        margin-right: 0;
+    }
+
+
+    /* Contact */
+    .vertical-text {
+        transform: rotate(360deg);
+        font-size: 2rem;
+        text-transform: uppercase;
+        background-color: var(--other);
+        padding: 10px;
+        color: var(--main-color);
+    }
+
+    .text-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .text-2-contact {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+        margin: 20px;
+    }
+
+    .contact-text {
+        margin: 50px;
+    }
+
+    .contact-section {
+        position: relative;
+        background-color: var(--main-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+
 
 }
